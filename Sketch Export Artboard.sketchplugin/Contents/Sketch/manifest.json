@@ -1,0 +1,27 @@
+{
+	"name": "Export Artboard",
+	"description": "Plugin to Quickly export the selected Artboard to a PNG",
+	"author": "Dave Wraight",
+	"homepage": "https://github.com/DaveWraight010/sketch-exportartboard",
+	"version": "1.1",
+	"identifier": "au.com.010.sketch.sketch-exportartboard",
+	"compatibleVersion": "3.4.3",
+	"bundleVersion": "1.1",
+	"commands": [
+	
+	
+		{
+			"name": "To PNG ...",
+			"identifier": "exportArtboardToPNG",
+			"shortcut": "ctrl e",
+			"script": "exportArtboard.js",
+			"handler": "exportArtboardToPNG"
+		}
+		
+		
+	],
+	"menu": 
+    {
+		"items":         [ "exportArtboardToPNG" ]
+	}
+}
